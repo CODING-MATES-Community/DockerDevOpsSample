@@ -23,7 +23,11 @@
 			"extensions": [
 				"dbaeumer.vscode-eslint",
 				"svelte.svelte-vscode"
-			]
+			],
+			"settings": {
+				"workbench.colorTheme": "Default Light+",
+				"svelte.enable-ts-plugin": true
+			}
 		}
 	},
 
