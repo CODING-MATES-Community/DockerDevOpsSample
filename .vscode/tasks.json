@@ -1,0 +1,34 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "dev",
+			"label": "npm: dev",
+			"detail": "vite dev",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"dependsOn": "npm: install",
+			"isBackground": true,
+			"problemMatcher": {
+				"pattern": {
+					"regexp": "--n/a--"
+				},
+				"background": {
+					"beginsPattern": "> vite dev",
+					"endsPattern": "ready in"
+				}
+			}
+		},
+		{
+			"type": "npm",
+			"script": "install",
+			"group": "clean",
+			"problemMatcher": [],
+			"label": "npm: install",
+			"detail": "install dependencies from package"
+		}
+	]
+}
