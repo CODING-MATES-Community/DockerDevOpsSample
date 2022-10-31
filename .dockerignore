@@ -1,0 +1,12 @@
+*
+
+!src/
+!static/
+!.gitignore
+!.npmrc
+!.prettierignore
+!.prettierrc
+!/*.md
+!/*.js
+!/*.json
+!LICENSE
